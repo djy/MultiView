@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D57F934515BCD002004A7744 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57F934415BCD002004A7744 /* UIKit.framework */; };
+		D57F934715BCD002004A7744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57F934615BCD002004A7744 /* Foundation.framework */; };
+		D57F934915BCD002004A7744 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57F934815BCD002004A7744 /* CoreGraphics.framework */; };
+		D57F934F15BCD002004A7744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D57F934D15BCD002004A7744 /* InfoPlist.strings */; };
+		D57F935115BCD002004A7744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F935015BCD002004A7744 /* main.m */; };
+		D57F935515BCD002004A7744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F935415BCD002004A7744 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D57F934015BCD002004A7744 /* MultiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57F934415BCD002004A7744 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D57F934615BCD002004A7744 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D57F934815BCD002004A7744 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D57F934C15BCD002004A7744 /* MultiView-Info.plist */ = {isa = PBXFileReference; path = "MultiView-Info.plist"; sourceTree = "<group>"; };
+		D57F934E15BCD002004A7744 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D57F935015BCD002004A7744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D57F935215BCD002004A7744 /* MultiView-Prefix.pch */ = {isa = PBXFileReference; path = "MultiView-Prefix.pch"; sourceTree = "<group>"; };
+		D57F935315BCD002004A7744 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D57F935415BCD002004A7744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57F933D15BCD001004A7744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57F934515BCD002004A7744 /* UIKit.framework in Frameworks */,
+				D57F934715BCD002004A7744 /* Foundation.framework in Frameworks */,
+				D57F934915BCD002004A7744 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57F933515BCD001004A7744 = {
+			isa = PBXGroup;
+			children = (
+				D57F934A15BCD002004A7744 /* MultiView */,
+				D57F934315BCD002004A7744 /* Frameworks */,
+				D57F934115BCD002004A7744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57F934115BCD002004A7744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57F934015BCD002004A7744 /* MultiView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57F934315BCD002004A7744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D57F934415BCD002004A7744 /* UIKit.framework */,
+				D57F934615BCD002004A7744 /* Foundation.framework */,
+				D57F934815BCD002004A7744 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D57F934A15BCD002004A7744 /* MultiView */ = {
+			isa = PBXGroup;
+			children = (
+				D57F935315BCD002004A7744 /* AppDelegate.h */,
+				D57F935415BCD002004A7744 /* AppDelegate.m */,
+				D57F934B15BCD002004A7744 /* Supporting Files */,
+			);
+			path = MultiView;
+			sourceTree = "<group>";
+		};
+		D57F934B15BCD002004A7744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D57F934C15BCD002004A7744 /* MultiView-Info.plist */,
+				D57F934D15BCD002004A7744 /* InfoPlist.strings */,
+				D57F935015BCD002004A7744 /* main.m */,
+				D57F935215BCD002004A7744 /* MultiView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57F933F15BCD001004A7744 /* MultiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57F935815BCD002004A7744 /* Build configuration list for PBXNativeTarget "MultiView" */;
+			buildPhases = (
+				D57F933C15BCD001004A7744 /* Sources */,
+				D57F933D15BCD001004A7744 /* Frameworks */,
+				D57F933E15BCD001004A7744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiView;
+			productName = MultiView;
+			productReference = D57F934015BCD002004A7744 /* MultiView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57F933715BCD001004A7744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D57F933A15BCD001004A7744 /* Build configuration list for PBXProject "MultiView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D57F933515BCD001004A7744;
+			productRefGroup = D57F934115BCD002004A7744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57F933F15BCD001004A7744 /* MultiView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57F933E15BCD001004A7744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57F934F15BCD002004A7744 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57F933C15BCD001004A7744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57F935115BCD002004A7744 /* main.m in Sources */,
+				D57F935515BCD002004A7744 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D57F934D15BCD002004A7744 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57F934E15BCD002004A7744 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D57F935615BCD002004A7744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D57F935715BCD002004A7744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57F935915BCD002004A7744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiView/MultiView-Prefix.pch";
+				INFOPLIST_FILE = "MultiView/MultiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D57F935A15BCD002004A7744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiView/MultiView-Prefix.pch";
+				INFOPLIST_FILE = "MultiView/MultiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57F933A15BCD001004A7744 /* Build configuration list for PBXProject "MultiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57F935615BCD002004A7744 /* Debug */,
+				D57F935715BCD002004A7744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57F935815BCD002004A7744 /* Build configuration list for PBXNativeTarget "MultiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57F935915BCD002004A7744 /* Debug */,
+				D57F935A15BCD002004A7744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57F933715BCD001004A7744 /* Project object */;
+}
