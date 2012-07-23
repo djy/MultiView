@@ -13,6 +13,12 @@
 		D57F934F15BCD002004A7744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D57F934D15BCD002004A7744 /* InfoPlist.strings */; };
 		D57F935115BCD002004A7744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F935015BCD002004A7744 /* main.m */; };
 		D57F935515BCD002004A7744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F935415BCD002004A7744 /* AppDelegate.m */; };
+		D57F935E15BCD03D004A7744 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F935C15BCD03D004A7744 /* RootViewController.m */; };
+		D57F935F15BCD03D004A7744 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57F935D15BCD03D004A7744 /* RootViewController.xib */; };
+		D57F936315BCD07E004A7744 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F936115BCD07E004A7744 /* FirstViewController.m */; };
+		D57F936415BCD07E004A7744 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57F936215BCD07E004A7744 /* FirstViewController.xib */; };
+		D57F936815BCD08D004A7744 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F936615BCD08D004A7744 /* SecondViewController.m */; };
+		D57F936915BCD08D004A7744 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57F936715BCD08D004A7744 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,21 @@
 		D57F934415BCD002004A7744 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D57F934615BCD002004A7744 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D57F934815BCD002004A7744 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D57F934C15BCD002004A7744 /* MultiView-Info.plist */ = {isa = PBXFileReference; path = "MultiView-Info.plist"; sourceTree = "<group>"; };
+		D57F934C15BCD002004A7744 /* MultiView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiView-Info.plist"; sourceTree = "<group>"; };
 		D57F934E15BCD002004A7744 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D57F935015BCD002004A7744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D57F935215BCD002004A7744 /* MultiView-Prefix.pch */ = {isa = PBXFileReference; path = "MultiView-Prefix.pch"; sourceTree = "<group>"; };
-		D57F935315BCD002004A7744 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D57F935215BCD002004A7744 /* MultiView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiView-Prefix.pch"; sourceTree = "<group>"; };
+		D57F935315BCD002004A7744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D57F935415BCD002004A7744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D57F935B15BCD03D004A7744 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D57F935C15BCD03D004A7744 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D57F935D15BCD03D004A7744 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		D57F936015BCD07E004A7744 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D57F936115BCD07E004A7744 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D57F936215BCD07E004A7744 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		D57F936515BCD08D004A7744 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D57F936615BCD08D004A7744 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D57F936715BCD08D004A7744 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +89,15 @@
 			children = (
 				D57F935315BCD002004A7744 /* AppDelegate.h */,
 				D57F935415BCD002004A7744 /* AppDelegate.m */,
+				D57F935B15BCD03D004A7744 /* RootViewController.h */,
+				D57F935C15BCD03D004A7744 /* RootViewController.m */,
+				D57F935D15BCD03D004A7744 /* RootViewController.xib */,
+				D57F936515BCD08D004A7744 /* SecondViewController.h */,
+				D57F936615BCD08D004A7744 /* SecondViewController.m */,
+				D57F936715BCD08D004A7744 /* SecondViewController.xib */,
+				D57F936015BCD07E004A7744 /* FirstViewController.h */,
+				D57F936115BCD07E004A7744 /* FirstViewController.m */,
+				D57F936215BCD07E004A7744 /* FirstViewController.xib */,
 				D57F934B15BCD002004A7744 /* Supporting Files */,
 			);
 			path = MultiView;
@@ -141,6 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D57F934F15BCD002004A7744 /* InfoPlist.strings in Resources */,
+				D57F935F15BCD03D004A7744 /* RootViewController.xib in Resources */,
+				D57F936415BCD07E004A7744 /* FirstViewController.xib in Resources */,
+				D57F936915BCD08D004A7744 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +180,9 @@
 			files = (
 				D57F935115BCD002004A7744 /* main.m in Sources */,
 				D57F935515BCD002004A7744 /* AppDelegate.m in Sources */,
+				D57F935E15BCD03D004A7744 /* RootViewController.m in Sources */,
+				D57F936315BCD07E004A7744 /* FirstViewController.m in Sources */,
+				D57F936815BCD08D004A7744 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

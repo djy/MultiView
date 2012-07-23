@@ -7,15 +7,31 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
 
+@synthesize rootViewController;
+
+/*
+ ① self.rootViewController = [[RootViewController alloc] initWithNibName:@"RootView" bundle:nil];
+ 这行代码用于从RootView.xib文件中初始化rootViewController，注意initWithNibName:@"RootView"中不要后缀名.xib
+ ② rootViewFrame.origin.y += [UIApplication sharedApplication].statusBarFrame.size.height;
+ 使得RootViewController的视图不会被状态栏挡住
+ */
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+    UIView *rootView = self.rootViewController.view;
+    CGRect rootViewFrame = rootView.frame;
+    
+    rootViewFrame.origin.y +=[UIApplication sharedApplication].statusBarFrame.size.height;
+    rootView.frame = rootViewFrame;
+    [self.window addSubview:rootView];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
